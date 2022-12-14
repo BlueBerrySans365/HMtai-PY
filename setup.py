@@ -4,7 +4,7 @@ from os.path import join, dirname
 
 setup(
     name='hmtai',
-    version='3.2.2',
+    version='3.2.3',
     license='CC-BY-NC-ND-4.0',
     author="NickSaltFoxu",
     author_email='thnyawec@gmail.com',

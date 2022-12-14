@@ -1,7 +1,6 @@
 # HMtai / HMFull
-## !IMPORTANT! Update your hmtai package to 3.2.2 version to use HMtai library!
 ### P.S. This is ported version of [npm version](https://www.npmjs.com/package/hmtai) of package.
-### Docs for this package are old and i can't update them now.
+### [About v3.2.2](https://docs.l0calserve4.ml/hmtai-port-api/hmtai-api-changelogs#v3.2.2-01.12.2022)
 ------------
 hmtai is an Anime / Hentai (NSFW) Image API which simplifies how you fetch random images from the local libraries! More features and functions will be added soon!
 Will be i updating this API? Of course nyse, dude, but this API has a 18.000 NSFW picture, and 442 SFW picture. 18 442 total. All picture we added manually. 
@@ -49,14 +48,12 @@ Examples
 
 ## Changelog
 ------------
-* Soon i will remove ``useHM``.
-* HotFix with metadata problems + HMtai 3.1.0
-* Changelog of this package is now moving [here](https://ntmine.ml/nicksaltfoxu/hmtai-rewrite/releases) 
+[Here](https://docs.l0calserve4.ml/hmtai-port-api/hmtai-api-changelogs#v3.2.2-01.12.2022)
 
 
 ## Support
 ------------
-Original Package -> [HMCommunity Discord Server](https://discord.gg/apcn33CGqw) || This package -> NickSaltFox#7273 (or [issues](https://discord.gg/K5sAtagby4))
+Original Package -> [HMCommunity Discord Server](https://discord.gg/apcn33CGqw) || This package -> NickSaltFox#7273 (or [issues](https://github.com/BlueBerrySans365/HMtai-PY/issues))
 
 ## List of Libraries
 HMtai

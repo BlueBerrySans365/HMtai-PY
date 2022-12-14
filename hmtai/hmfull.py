@@ -1,4 +1,5 @@
 import requests as r
+import json
 
 class hmfull:
     def hmtai(category):
@@ -10,12 +11,13 @@ class hmfull:
 
     def nekos(category):
         blacklist = ['https://cdn.nekos.life/blowjob/blowjob31.jpg', 'https://cdn.nekos.life/blowjob/blowjob32.jpg', 'https://cdn.nekos.life/lewdkemo/lewd_neko_v2_132.jpg', 'https://cdn.nekos.life/Random_hentai_gif/Random_hentai_gifNB_1039.gif']
-        res = r.get(f"https://nekos.life/api/v2/img/{category}")
-        if "msg" in res.json():
+        res = r.get(url=f"https://nekos.life/api/v2/img/{category}")
+        res = json.loads(res.text)
+        if "msg" in res:
             return 0
-        if res.json()["url"] in blacklist:
+        if res["url"] in blacklist:
             return hmfull.nekos(category)
-        return res.json()["url"]
+        return res["url"]
 
     def nekobot(category):
         blacklist = ['https://i0.nekobot.xyz/0/2/9/1b50d3f619f1bafdf114a530a2570.jpg', 'https://cdn.nekobot.xyz/9/3/9/448bb2ff69b3457a82f32ecd31c06.jpg', 'https://i0.nekobot.xyz/4/9/3/3b6ccf0c081db887fbe38038af996.jpg', 'https://i0.nekobot.xyz/8/6/9/ee21a6ac7d06aabf0b71691e6dfb5.jpg', 'https://cdn.nekobot.xyz/b/4/d/c1fdf4234fbfba326fb282de9ef8c.jpg', 'https://cdn.nekobot.xyz/b/4/d/c1fdf4234fbfba326fb282de9ef8c.jpg']

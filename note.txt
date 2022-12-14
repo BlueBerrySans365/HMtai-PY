@@ -1,0 +1,16 @@
+If Freaker source will work add this:
+    def freaker(category):
+        headers = {
+            "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0"
+        }
+        res = r.get(f"https://api.computerfreaker.cf/v2/{category}", headers=headers)
+        if not res.status_code == 200:
+            return print('Freaker is not working or this endpoint don\'t work.')
+        return r.get(f"https://api.computerfreaker.cf/v2/{category}", headers=headers).json()
+
+Old ReadMe
+## DLC content credits
+Author | Credits | Description
+------------ | ------------- | -------------
+Vein05 | Github: [Link](https://github.com/Vein05) / Discord: Vein#8177 | Some new NSFW content
+Me | Github: [Link](https://github.com/BlueBerrySans365) / Discord: N!ckS∆1tF0x | some fumo pics

@@ -4,8 +4,8 @@ from os.path import join, dirname
 
 setup(
     name='hmtai',
-    version='3.2.3',
-    license='CC-BY-NC-ND-4.0',
+    version='3.2.31',
+    license='WTFPL',
     author="NickSaltFoxu",
     author_email='thnyawec@gmail.com',
     packages=['hmtai'],

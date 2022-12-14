@@ -10,4 +10,4 @@ assignees: ''
 **Which source did you used?**
 Tell here which source did you used.
 **Insert here exception that have been already said by script**
-Insert exception with code mark down (example: \`\`\` code \`\`\`)
+``` Insert exception here ```

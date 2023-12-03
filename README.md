@@ -1,4 +1,7 @@
 # HMtai / HMFull
+
+## Archived: i don't think that i need to update this anymore... so yep
+
 ### P.S. This is ported version of [npm version](https://www.npmjs.com/package/hmtai) of package.
 ### [About v3.2.2](https://docs.l0calserve4.ml/hmtai-port-api/hmtai-api-changelogs#v3.2.2-01.12.2022)
 ------------
